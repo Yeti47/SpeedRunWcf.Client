@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="78209461-a9c8-4a53-beed-f4db9af31da5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51558/SpeedRunWebservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SpeedRunWebservice.xsd" MetadataType="Schema" ID="a7ba12cf-4bf8-4280-93f0-77ede4f91019" SourceId="1" SourceUrl="http://localhost:51558/SpeedRunWebservice.svc?xsd=xsd0" />
+    <MetadataFile FileName="SpeedRunWebservice1.xsd" MetadataType="Schema" ID="d798eaaa-381e-4436-9af9-8756291701fd" SourceId="1" SourceUrl="http://localhost:51558/SpeedRunWebservice.svc?xsd=xsd1" />
+    <MetadataFile FileName="SpeedRunWebservice2.xsd" MetadataType="Schema" ID="ca75c691-093d-414e-91e6-96cd9e4cb311" SourceId="1" SourceUrl="http://localhost:51558/SpeedRunWebservice.svc?xsd=xsd2" />
+    <MetadataFile FileName="SpeedRunWebservice3.xsd" MetadataType="Schema" ID="8360e2a2-da86-4a56-a444-52451c3437fe" SourceId="1" SourceUrl="http://localhost:51558/SpeedRunWebservice.svc?xsd=xsd3" />
+    <MetadataFile FileName="SpeedRunWebservice.wsdl" MetadataType="Wsdl" ID="c08a9eef-04c9-4f62-a85c-2bf541c80b98" SourceId="1" SourceUrl="http://localhost:51558/SpeedRunWebservice.svc?wsdl" />
+    <MetadataFile FileName="SpeedRunWebservice.disco" MetadataType="Disco" ID="0c42aa27-4dfb-41ac-9480-44175a522193" SourceId="1" SourceUrl="http://localhost:51558/SpeedRunWebservice.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
